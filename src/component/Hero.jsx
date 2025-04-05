@@ -115,9 +115,9 @@ const Hero = () => {
           </div>
           
           <div className="hidden md:flex space-x-8">
+            <a href="#" className="text-white/80 hover:text-white">About</a>
             <a href="#" className="text-white/80 hover:text-white">Features</a>
-            <a href="#" className="text-white/80 hover:text-white">Pricing</a>
-            <a href="#" className="text-white/80 hover:text-white">Testimonials</a>
+            <a href="#" className="text-white/80 hover:text-white">Contacts</a>
             <a href="#" className="text-white/80 hover:text-white">Resources</a>
           </div>
           
@@ -323,7 +323,7 @@ const Hero = () => {
         </div>
         
         {/* Trust indicators */}
-        <div className="mt-24 pt-12 border-t border-white/10">
+        {/* <div className="mt-24 pt-12 border-t border-white/10">
           <p className="text-center text-white/50 mb-8">Trusted by leading educational institutions</p>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 items-center justify-items-center opacity-70">
             <div className="text-white/80 font-bold text-xl">Stanford</div>
@@ -332,7 +332,7 @@ const Hero = () => {
             <div className="text-white/80 font-bold text-xl">Princeton</div>
             <div className="text-white/80 font-bold text-xl md:col-span-4 lg:col-span-1">Oxford</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
