@@ -183,7 +183,7 @@ const Hero = () => {
               </div>
             </div>
             
-            <div className="mt-12 flex items-center space-x-6">
+            {/* <div className="mt-12 flex items-center space-x-6">
               <div className="flex -space-x-2">
                 <img src="/api/placeholder/32/32" alt="User" className="w-8 h-8 rounded-full border-2 border-slate-900" />
                 <img src="/api/placeholder/32/32" alt="User" className="w-8 h-8 rounded-full border-2 border-slate-900" />
@@ -205,7 +205,7 @@ const Hero = () => {
                   <p className="text-white/60 text-sm ml-2">4.9 (2.5k+ reviews)</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           
           {/* Topic-related image replacing the side interface */}
